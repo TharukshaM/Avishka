@@ -10,56 +10,56 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Experiences</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Director - Graduation Photoshoots</h3>
+            <h4 className="vertical-timeline-element-subtitle">University of Moratuwa</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Need some details to put here 
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2024  (August - May )"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Intern - Designer</h3>
+            <h4 className="vertical-timeline-element-subtitle">MAS Intimates - Rathmalana</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Need some details to put here 
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Backstage Crew</h3>
+            <h4 className="vertical-timeline-element-subtitle">Spring and Summer 2023 Collection</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+               Participated with the brand INDI YAPA ABEYAWARDANA
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">RANSALU Competition</h3>
+            <h4 className="vertical-timeline-element-subtitle">All island textile designing competition</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+               Participated with the final assessing workshop of local craftsmanship Department of Textile Industry - Katubadda, Moratuwa
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

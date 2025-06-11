@@ -1,58 +1,57 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faPaintBrush, faTshirt, faLightbulb } from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Fashion Illustration",
+    "Pattern Making",
+    "Technical File Preparation",
+    "Collection Coordination",
+    "Creative Direction",
+    "Trend Research",
+    "Garment Construction",
+    "Adobe Illustrator",
+    "Adobe Photoshop"
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Textile Design",
+    "Apparel Engineering",
+    "Industrial Sewing Machines",
+    "Technical Documentation",
+    "Product Development",
+    "Lounge Wear Design",
+    "Academic Research",
+    "MS Office"
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Concept Development",
+    "Teamwork",
+    "Decision Making",
+    "Problem Solving",
+    "Adaptability",
+    "Critical Thinking",
+    "Project Management",
+    "Leadership",
+    "Communication"
 ];
 
 function Expertise() {
     return (
     <div className="container" id="expertise">
         <div className="skills-container">
-            <h1>Expertise</h1>
+            <h1 style={{marginBottom: "10vh"}}>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FontAwesomeIcon icon={faPaintBrush} size="3x"/>
+                    <h3>Fashion Design & Creative Direction</h3>
+                    <p>I bring a diverse background in fashion design, combining academic training with hands-on industry experience. My journey spans from crafting couture-level collections for designer brands to coordinating high-end ready-to-wear and premium casual wear. I am skilled in concept development, technical design, and creative leadership, excelling at taking ideas from inspiration to runway-ready garments.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Skill set:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -60,11 +59,11 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <FontAwesomeIcon icon={faTshirt} size="3x"/>
+                    <h3>Textile & Apparel Development</h3>
+                    <p>With a strong foundation in textile and apparel engineering, I understand the technical and creative sides of garment production. I have collaborated on industry projects with major brands, gaining hands-on experience with industrial sewing machines, technical documentation, and product development cycles. My approach bridges innovation and practicality, ensuring both aesthetic appeal and manufacturability.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Skill set:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -72,11 +71,11 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <FontAwesomeIcon icon={faLightbulb} size="3x"/>
+                    <h3>Innovation & Collaboration</h3>
+                    <p>As a self-motivated and adaptable designer, I thrive in collaborative and fast-paced environments. My experience spans backstage crew work, directing graduation photoshoots, and participating in all-island textile competitions. I’m passionate about exploring new ideas, fostering teamwork, and pushing creative boundaries while maintaining strong decision-making and critical thinking skills.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Skill set:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
