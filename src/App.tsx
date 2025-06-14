@@ -9,6 +9,7 @@ import {
   Footer,
 } from "./components";
 import FadeIn from './components/FadeIn';
+import CursorTrail from "./components/CursorTrail";
 import './index.scss';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
 
     return (
     <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
+        <CursorTrail />
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
         <FadeIn transitionDuration={700}>
             <Main/>
